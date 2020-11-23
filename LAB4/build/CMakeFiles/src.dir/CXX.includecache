@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lab4.1.hpp
+iostream
+-
+fstream
+-
+lab4.hpp
+-
+
+../include/lab4.hpp
+iostream
+-
+
+D:/JiPP/LAB4/src/lab4.cpp
+iostream
+-
+lab4.1.hpp
+-
+
