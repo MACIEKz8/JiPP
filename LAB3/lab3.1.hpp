@@ -123,7 +123,7 @@ void macierz::print()
     for(int i=0;i<wiersz;i++)
     {
         for(int j=0;j<kolumna;j++)
-            cout<<"tab["<<i<<"]["<<j<<"] = "<<tab[i][j]<<'\t';
+            cout<<"tab["<<i<<"]["<<j<<"] = "<<tab[i][j]<<"   "<<'\t';
         cout<<endl;
     }
     cout<<endl;
