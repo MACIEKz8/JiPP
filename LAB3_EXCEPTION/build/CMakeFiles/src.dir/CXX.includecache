@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/exceptions.cpp
+iostream
+-
+
+../include/lab3.1_ex.hpp
+iostream
+-
+fstream
+-
+lab3_ex.hpp
+../include/lab3_ex.hpp
+exceptions.cpp
+../include/exceptions.cpp
+
+../include/lab3_ex.hpp
+iostream
+-
+
+D:/JiPP/LAB3_EXCEPTION/src/lab3_ex.cpp
+iostream
+-
+lab3.1_ex.hpp
+D:/JiPP/LAB3_EXCEPTION/src/lab3.1_ex.hpp
+
