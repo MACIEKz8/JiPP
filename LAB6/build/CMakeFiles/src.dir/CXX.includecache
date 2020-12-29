@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/exceptions.cpp
+iostream
+-
+
+../include/functions.hpp
+iostream
+-
+algorithm
+-
+vector
+-
+map
+-
+string
+-
+exceptions.cpp
+../include/exceptions.cpp
+fstream
+-
+
+D:/JiPP/LAB6/src/main.cpp
+iostream
+-
+string
+-
+functions.hpp
+D:/JiPP/LAB6/src/functions.hpp
+
